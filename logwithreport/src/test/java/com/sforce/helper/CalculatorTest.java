@@ -2,6 +2,7 @@ package com.sforce.helper;
 
 import static org.junit.Assert.*;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class CalculatorTest {
@@ -51,5 +52,9 @@ public class CalculatorTest {
 		int actualNegitiveMul;
 		actualNegitiveMul = calculator.mul(ni, nj);
 		assertEquals(expectedNegitiveMul, actualNegitiveMul);
+	}
+	@Ignore
+	public void test1() {
+		
 	}
 }
