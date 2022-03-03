@@ -53,8 +53,4 @@ public class CalculatorTest {
 		actualNegitiveMul = calculator.mul(ni, nj);
 		assertEquals(expectedNegitiveMul, actualNegitiveMul);
 	}
-	@Ignore
-	public void test1() {
-		
-	}
 }
