@@ -1,8 +1,8 @@
 package com.sforce.helper;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 public class CalculatorTest {
